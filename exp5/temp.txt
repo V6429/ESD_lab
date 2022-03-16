@@ -1,0 +1,21 @@
+					 #include<lpc214x.h>
+#define BIT(x) (1<<x)
+#define LED1 16
+
+int main()
+{
+
+PINSEL1 |=0x00 ; // setting all pins on port to gpio pin
+IO1DIR |=0x00004000;
+IO1SET |=0x00004000; 
+// pinmode
+// IOSET
+// IOCLR 
+
+
+return 0; 
+}
+
+
+
+	  
