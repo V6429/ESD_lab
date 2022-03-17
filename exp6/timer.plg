@@ -1,0 +1,178 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Victor\Desktop\MTECH\ESD\Keil\lab\exp6\timer.uvproj
+Project File Date:  03/16/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(66): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=2064 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(66): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=2064 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(65): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=2064 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(65): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=2076 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 3 Warning(s).
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(65): warning:  #111-D: statement is unreachable
+main.c - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=2064 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(65): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=2064 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(66): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=2072 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(66): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=2076 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(66): warning:  #111-D: statement is unreachable
+main.c(141): error:  #18: expected a ")"
+main.c(180): warning:  #12-D: parsing restarts here after previous syntax error
+main.c(180): error:  #127: expected a statement
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(66): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=2076 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(59): error:  #268: declaration may not appear after executable statement in block
+main.c(64): error:  #20: identifier "o" is undefined
+main.c(68): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(59): error:  #268: declaration may not appear after executable statement in block
+main.c(68): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(59): error:  #268: declaration may not appear after executable statement in block
+main.c(68): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(59): error:  #268: declaration may not appear after executable statement in block
+main.c(68): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(69): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=2160 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=2160 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=2160 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+main.c(42): warning:  #1295-D: Deprecated declaration initpulsing_led - give arg types
+main.c(44): warning:  #1295-D: Deprecated declaration ledpulsingroutine - give arg types
+main.c(69): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=2188 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=2188 RO-data=32 RW-data=20 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin timer.axf -o timer.bin
+"timer.axf" - 0 Error(s), 0 Warning(s).

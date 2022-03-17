@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "lpc214x.h": "c",
+        "math.h": "c"
+    }
+}
