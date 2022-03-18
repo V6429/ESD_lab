@@ -137,7 +137,11 @@ int main()
     {
     
         LED4_ON();
+<<<<<<< HEAD
 		for (i = 0; i < 900000; i++);	  // why do we need this
+=======
+		for (i = 0; i < 900000; i++);	
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         AD0CR |= BIT(24); // start
         while ((AD0DR1 & ADCREGISTER_DONEBIT)==0);
 		AD0CR &= ~BIT(24); // stop

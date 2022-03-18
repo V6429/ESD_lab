@@ -1,6 +1,7 @@
 {
     "files.associations": {
-        "lpc214x.h": "c"
+        "lpc214x.h": "c",
+        "utils.h": "c"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }

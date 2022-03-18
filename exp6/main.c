@@ -13,7 +13,6 @@
 #define LED3_MASK 0x00010000 // 00 04 00 00
 #define LED4_MASK 0x00010000 // 00 08 00 00
 
-
 // Macro Functions to turn ON LEDs
 #define LED1_ON() IO1SET = (1 << 16)
 #define LED2_ON() IO1SET = (1 << 17)

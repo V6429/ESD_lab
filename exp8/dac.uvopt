@@ -379,7 +379,11 @@
         <ItemNo>5</ItemNo>
         <Name>Command</Name>
         <AnchorWinID>197</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Build Output</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -404,7 +408,11 @@
         <ItemNo>6</ItemNo>
         <Name>Find in Files</Name>
         <AnchorWinID>198</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Command</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -429,7 +437,11 @@
         <ItemNo>7</ItemNo>
         <Name>Browse</Name>
         <AnchorWinID>199</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Find in Files</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -454,7 +466,11 @@
         <ItemNo>8</ItemNo>
         <Name>UART #1</Name>
         <AnchorWinID>38007</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Browser</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -479,7 +495,11 @@
         <ItemNo>9</ItemNo>
         <Name>UART #2</Name>
         <AnchorWinID>1939</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>UART #1</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -504,7 +524,11 @@
         <ItemNo>10</ItemNo>
         <Name>UART #3</Name>
         <AnchorWinID>1940</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>UART #2</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -529,7 +553,11 @@
         <ItemNo>11</ItemNo>
         <Name>UART #4</Name>
         <AnchorWinID>1941</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>UART #3</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -554,9 +582,15 @@
         <ItemNo>12</ItemNo>
         <Name>Call Stack</Name>
         <AnchorWinID>197</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Build Output</AnchorWinName>
         <OtherWinID>197</OtherWinID>
         <OtherWinName>Build Output</OtherWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+        <OtherWinID>197</OtherWinID>
+        <OtherWinName></OtherWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <WinType>1</WinType>
         <DockType>2</DockType>
         <DockLocation>2</DockLocation>
@@ -579,9 +613,15 @@
         <ItemNo>13</ItemNo>
         <Name>Call Stack</Name>
         <AnchorWinID>1944</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Call Stack</AnchorWinName>
         <OtherWinID>197</OtherWinID>
         <OtherWinName>Build Output</OtherWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+        <OtherWinID>197</OtherWinID>
+        <OtherWinName></OtherWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <WinType>1</WinType>
         <DockType>4</DockType>
         <DockLocation>2</DockLocation>
@@ -604,9 +644,15 @@
         <ItemNo>14</ItemNo>
         <Name>Locals</Name>
         <AnchorWinID>1507</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Call Stack</AnchorWinName>
         <OtherWinID>197</OtherWinID>
         <OtherWinName>Build Output</OtherWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+        <OtherWinID>197</OtherWinID>
+        <OtherWinName></OtherWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <WinType>1</WinType>
         <DockType>4</DockType>
         <DockLocation>2</DockLocation>
@@ -629,9 +675,15 @@
         <ItemNo>15</ItemNo>
         <Name>Watch 1</Name>
         <AnchorWinID>1935</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Locals</AnchorWinName>
         <OtherWinID>197</OtherWinID>
         <OtherWinName>Build Output</OtherWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+        <OtherWinID>197</OtherWinID>
+        <OtherWinName></OtherWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <WinType>1</WinType>
         <DockType>4</DockType>
         <DockLocation>2</DockLocation>
@@ -654,9 +706,15 @@
         <ItemNo>16</ItemNo>
         <Name>Watch 2</Name>
         <AnchorWinID>1936</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Watch 1</AnchorWinName>
         <OtherWinID>197</OtherWinID>
         <OtherWinName>Build Output</OtherWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+        <OtherWinID>197</OtherWinID>
+        <OtherWinName></OtherWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <WinType>1</WinType>
         <DockType>4</DockType>
         <DockLocation>2</DockLocation>
@@ -679,9 +737,15 @@
         <ItemNo>17</ItemNo>
         <Name>Memory 1</Name>
         <AnchorWinID>1937</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Watch 2</AnchorWinName>
         <OtherWinID>197</OtherWinID>
         <OtherWinName>Build Output</OtherWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+        <OtherWinID>197</OtherWinID>
+        <OtherWinName></OtherWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <WinType>1</WinType>
         <DockType>4</DockType>
         <DockLocation>2</DockLocation>
@@ -704,9 +768,15 @@
         <ItemNo>18</ItemNo>
         <Name>Memory 2</Name>
         <AnchorWinID>1465</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Memory 1</AnchorWinName>
         <OtherWinID>197</OtherWinID>
         <OtherWinName>Build Output</OtherWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+        <OtherWinID>197</OtherWinID>
+        <OtherWinName></OtherWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <WinType>1</WinType>
         <DockType>4</DockType>
         <DockLocation>2</DockLocation>
@@ -729,9 +799,15 @@
         <ItemNo>19</ItemNo>
         <Name>Memory 3</Name>
         <AnchorWinID>1466</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Memory 2</AnchorWinName>
         <OtherWinID>197</OtherWinID>
         <OtherWinName>Build Output</OtherWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+        <OtherWinID>197</OtherWinID>
+        <OtherWinName></OtherWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <WinType>1</WinType>
         <DockType>4</DockType>
         <DockLocation>2</DockLocation>
@@ -754,9 +830,15 @@
         <ItemNo>20</ItemNo>
         <Name>Memory 4</Name>
         <AnchorWinID>1467</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Memory 3</AnchorWinName>
         <OtherWinID>197</OtherWinID>
         <OtherWinName>Build Output</OtherWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+        <OtherWinID>197</OtherWinID>
+        <OtherWinName></OtherWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <WinType>1</WinType>
         <DockType>4</DockType>
         <DockLocation>2</DockLocation>
@@ -779,9 +861,15 @@
         <ItemNo>21</ItemNo>
         <Name>Symbols</Name>
         <AnchorWinID>1468</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Memory 4</AnchorWinName>
         <OtherWinID>197</OtherWinID>
         <OtherWinName>Build Output</OtherWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+        <OtherWinID>197</OtherWinID>
+        <OtherWinName></OtherWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <WinType>1</WinType>
         <DockType>4</DockType>
         <DockLocation>2</DockLocation>
@@ -829,7 +917,11 @@
         <ItemNo>23</ItemNo>
         <Name>Books</Name>
         <AnchorWinID>1005</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Project</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -854,7 +946,11 @@
         <ItemNo>24</ItemNo>
         <Name>Functions</Name>
         <AnchorWinID>109</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Books</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -879,7 +975,11 @@
         <ItemNo>25</ItemNo>
         <Name>Templates</Name>
         <AnchorWinID>195</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Functions</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -904,7 +1004,11 @@
         <ItemNo>26</ItemNo>
         <Name>Registers</Name>
         <AnchorWinID>196</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Templates</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -954,7 +1058,11 @@
         <ItemNo>28</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35885</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -979,7 +1087,11 @@
         <ItemNo>29</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35886</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1004,7 +1116,11 @@
         <ItemNo>30</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35887</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1029,7 +1145,11 @@
         <ItemNo>31</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35888</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1054,7 +1174,11 @@
         <ItemNo>32</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35889</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1079,7 +1203,11 @@
         <ItemNo>33</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35890</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1104,7 +1232,11 @@
         <ItemNo>34</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35891</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1129,7 +1261,11 @@
         <ItemNo>35</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35892</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1154,7 +1290,11 @@
         <ItemNo>36</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35893</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1179,7 +1319,11 @@
         <ItemNo>37</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35894</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1204,7 +1348,11 @@
         <ItemNo>38</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35895</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1229,7 +1377,11 @@
         <ItemNo>39</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35896</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1254,7 +1406,11 @@
         <ItemNo>40</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35897</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1279,7 +1435,11 @@
         <ItemNo>41</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35898</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1304,7 +1464,11 @@
         <ItemNo>42</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35899</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1329,7 +1493,11 @@
         <ItemNo>43</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35900</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1354,7 +1522,11 @@
         <ItemNo>44</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35901</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1379,7 +1551,11 @@
         <ItemNo>45</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35902</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1404,7 +1580,11 @@
         <ItemNo>46</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35903</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1429,7 +1609,11 @@
         <ItemNo>47</ItemNo>
         <Name>not set</Name>
         <AnchorWinID>35904</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>???</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1479,7 +1663,11 @@
         <ItemNo>49</ItemNo>
         <Name>Instruction Trace</Name>
         <AnchorWinID>203</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Disassembly</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1504,7 +1692,11 @@
         <ItemNo>50</ItemNo>
         <Name>Performance Analyzer</Name>
         <AnchorWinID>1913</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Instruction Trace</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1529,7 +1721,11 @@
         <ItemNo>51</ItemNo>
         <Name>Performance Analyzer</Name>
         <AnchorWinID>343</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Performance Analyzer</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>
@@ -1554,7 +1750,11 @@
         <ItemNo>52</ItemNo>
         <Name>Code Coverage</Name>
         <AnchorWinID>204</AnchorWinID>
+<<<<<<< HEAD
         <AnchorWinName>Performance Analyzer</AnchorWinName>
+=======
+        <AnchorWinName></AnchorWinName>
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
         <OtherWinID>0</OtherWinID>
         <OtherWinName></OtherWinName>
         <WinType>1</WinType>

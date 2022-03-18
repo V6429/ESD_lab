@@ -11,7 +11,11 @@
 ### ADS-LD Output File: 'dac.axf'
 ### ADS-LD Command File: 'dac.lnp'
 ### Checking for dirty Components...
+<<<<<<< HEAD
 ### Creating CmdFile 'dac.lnp', Handle=0x000005E0
+=======
+### Creating CmdFile 'dac.lnp', Handle=0x000005A0
+>>>>>>> 85687af93462ee4003cdaf100ec40de81690d58d
 ### Writing '.lnp' file
 ### ADS-LD Command file 'dac.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

@@ -2,16 +2,17 @@
 ### Preparing for ADS-LD.
 ### Creating ADS-LD Command Line
 ### List of Objects: adding '"startup.o"'
-### List of Objects: adding '"main.o"'
+### List of Objects: adding '"final.o"'
+### List of Objects: adding '"utils.o"'
 ### ADS-LD Command completed:
---cpu ARM7TDMI "startup.o" "main.o" --strict --scatter "timer.sct" 
+--cpu ARM7TDMI "startup.o" "final.o" "utils.o" --strict --scatter "timer.sct" 
 --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
  --list ".\timer.map" -o "timer.axf"### Preparing Environment (PrepEnvAds)
 ### ADS-LD Output File: 'timer.axf'
 ### ADS-LD Command File: 'timer.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'timer.lnp', Handle=0x000002B8
+### Creating CmdFile 'timer.lnp', Handle=0x00000B0C
 ### Writing '.lnp' file
 ### ADS-LD Command file 'timer.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
