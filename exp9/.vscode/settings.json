@@ -2,6 +2,11 @@
     "files.associations": {
         "lpc214x.h": "c",
         "uart.h": "c",
-        "utils.h": "c"
+        "utils.h": "c",
+        "string.h": "c",
+        "stdlib.h": "c",
+        "ctype.h": "c",
+        "*.tcc": "c",
+        "cstdio": "c"
     }
 }

@@ -6,7 +6,7 @@
 #define INTERRUPTIDENTIFICATIONMASK 0x0000000E
 
 extern int _INTERUPDATE ;  // extern vars to be used on main
-extern int BUFRINDX ;  // extern vars to be used on main
+extern int BUFRTAIL,BUFRHEAD ;  // extern vars to be used on main
 extern char __TX , __RX ;
 extern char BUFFER[100];
 
@@ -19,7 +19,7 @@ char readRBR();
 
 void writeTHR(char transmitdata);
 
-void uart_send_string(char *str);
+void uartSendString(char *str);
 
 void enableDLAB();
 

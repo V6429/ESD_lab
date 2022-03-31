@@ -13,7 +13,7 @@
 ### ADS-LD Output File: 'uart.axf'
 ### ADS-LD Command File: 'uart.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'uart.lnp', Handle=0x00000840
+### Creating CmdFile 'uart.lnp', Handle=0x00000A84
 ### Writing '.lnp' file
 ### ADS-LD Command file 'uart.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

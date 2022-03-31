@@ -4,9 +4,10 @@
 #define INTERRUPTIDENTIFICATIONMASK 0x0000000E
 
 // TODO AUTOBAUDRATE
-int _INTERUPDATE = 0, BUFRINDX = 0;
+int _INTERUPDATE = 0, BUFRTAIL = 0, BUFRHEAD = 0;
 char __TX = 0, __RX = 0;
 char BUFFER[100];
+
 
 char readRBR()
 {
@@ -22,10 +23,11 @@ void writeTHR(char transmitdata)
     U0THR = transmitdata;
 }
 
-void uart_send_string(char *str)
+void uartSendString(char *str)
 {
     while (*str != '\0')
         writeTHR(*str++);
+
 }
 void enableDLAB()
 {
@@ -103,27 +105,21 @@ void disabletransmit()
 
 __irq void uart0routine()
 {
+    LED4_ON();
     _INTERUPDATE = 1;
-    BUFFER[BUFRINDX] = U0RBR;
-    writeTHR(BUFFER[BUFRINDX]);
-    BUFRINDX++;
-    VICVectAddr = U0IIR;// two things in one shot
+    //  uartSendString("********** I AM INSIDE THE DAMN ROUTINE********** ");
 
+    //  int iir_value;
+    if (U0LSR & 0x01)
+    {
+        __RX = U0RBR;
+        // U0THR = __RX;
+        BUFFER[BUFRTAIL++] = __RX; // adding to buffer
+    }
+    VICVectAddr = U0IIR; // two things in one shot
 }
 
-// __irq void UART0_Interrupt(void)
-// {
-// 	int iir_value;
-// 	iir_value = U0IIR;
-// 	while ( !(iir_value & 0x01) );
-// 	if( iir_value & 0x00000004 )
-// 	{
-// 		rx = U0RBR;
-// 	}
-// 		U0THR = rx;
-// 		while( (U0LSR & 0x40) == 0 );
-// 	VICVectAddr = 0x00;
-// }
+
 
 void inituart(int baudrate)
 {
