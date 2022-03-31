@@ -13,7 +13,7 @@
       <TargetOption>
         <TargetCommonOption>
           <Device>LPC2148</Device>
-          <Vendor>NXP (founded by Philips)</Vendor>
+          <Vendor>NXP</Vendor>
           <Cpu>IRAM(0x40000000-0x40007FFF) IROM(0-0x7FFFF) CLOCK(12000000) CPUTYPE(ARM7TDMI)</Cpu>
           <FlashUtilSpec>LPC210x_ISP.EXE ("#H" ^X $D COM1: 38400 1)</FlashUtilSpec>
           <StartupFile>"STARTUP\Philips\Startup.s" ("Philips LPC2100 Startup Code")</StartupFile>
@@ -42,14 +42,14 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>.\</OutputDirectory>
-          <OutputName>uart</OutputName>
+          <OutputDirectory>.\Objects\</OutputDirectory>
+          <OutputName>UART interrupt</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
-          <ListingPath>.\</ListingPath>
+          <ListingPath>.\Listings\</ListingPath>
           <HexFormatSelection>1</HexFormatSelection>
           <Merge32K>0</Merge32K>
           <CreateBatchFile>0</CreateBatchFile>
@@ -70,9 +70,9 @@
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
           </BeforeMake>
           <AfterMake>
-            <RunUserProg1>1</RunUserProg1>
+            <RunUserProg1>0</RunUserProg1>
             <RunUserProg2>0</RunUserProg2>
-            <UserProg1Name>fromelf --bin uart.axf -o 1uart.bin</UserProg1Name>
+            <UserProg1Name></UserProg1Name>
             <UserProg2Name></UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
@@ -127,7 +127,7 @@
           <Target>
             <UseTarget>0</UseTarget>
             <LoadApplicationAtStartup>1</LoadApplicationAtStartup>
-            <RunToMain>0</RunToMain>
+            <RunToMain>1</RunToMain>
             <RestoreBreakpoints>1</RestoreBreakpoints>
             <RestoreWatchpoints>1</RestoreWatchpoints>
             <RestoreMemoryDisplay>1</RestoreMemoryDisplay>
@@ -154,10 +154,10 @@
         </DebugOption>
         <Utilities>
           <Flash1>
-            <UseTargetDll>0</UseTargetDll>
+            <UseTargetDll>1</UseTargetDll>
             <UseExternalTool>1</UseExternalTool>
             <RunIndependent>0</RunIndependent>
-            <UpdateFlashBeforeDebugging>0</UpdateFlashBeforeDebugging>
+            <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
             <DriverSelection>4096</DriverSelection>
           </Flash1>
@@ -292,7 +292,7 @@
               </OCR_RVCT3>
               <OCR_RVCT4>
                 <Type>1</Type>
-                <StartAddress>0x2000</StartAddress>
+                <StartAddress>0x0</StartAddress>
                 <Size>0x80000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
@@ -333,13 +333,13 @@
             <Optim>1</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
-            <OneElfS>0</OneElfS>
+            <OneElfS>1</OneElfS>
             <Strict>0</Strict>
             <EnumInt>0</EnumInt>
             <PlainCh>0</PlainCh>
             <Ropi>0</Ropi>
             <Rwpi>0</Rwpi>
-            <wLevel>0</wLevel>
+            <wLevel>2</wLevel>
             <uThumb>0</uThumb>
             <VariousControls>
               <MiscControls></MiscControls>
@@ -391,19 +391,9 @@
               <FilePath>.\Startup.s</FilePath>
             </File>
             <File>
-              <FileName>main.c</FileName>
+              <FileName>UART interrupt.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\main.c</FilePath>
-            </File>
-            <File>
-              <FileName>utils.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\utils.c</FilePath>
-            </File>
-            <File>
-              <FileName>utils.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\utils.h</FilePath>
+              <FilePath>.\UART interrupt.c</FilePath>
             </File>
           </Files>
         </Group>

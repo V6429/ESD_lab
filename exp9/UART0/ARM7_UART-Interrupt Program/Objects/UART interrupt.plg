@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Victor\Desktop\MTECH\ESD\Keil\lab\exp9\UART0\ARM7_UART-Interrupt Program\UART interrupt.uvproj
+Project File Date:  03/24/2022
+
+<h2>Output:</h2>
+compiling UART interrupt.c...
+UART interrupt.c - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1008 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin UARTinterrupt -o 1.bin
+"UARTinterrupt": Error: Q0122E: Could not open file 'UARTinterrupt': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\Objects\UARTinterrupt.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1008 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin UARTinterrupt.axf -o 1.bin
+"UARTinterrupt.axf": Error: Q0122E: Could not open file 'UARTinterrupt.axf': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\Objects\UARTinterrupt.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1008 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin UARTinterrupt.axf -o 1.bin
+"UARTinterrupt.axf": Error: Q0122E: Could not open file 'UARTinterrupt.axf': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\Objects\UARTinterrupt.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1008 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin .\obects\UARTinterrupt.axf -o 1.bin
+".\obects\UARTinterrupt.axf": Error: Q0122E: Could not open file '.\obects\UARTinterrupt.axf': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\Objects\UARTinterrupt.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling UART interrupt.c...
+linking...
+Program Size: Code=1008 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin .\obects\UARTinterrupt.axf -o 1.bin
+".\obects\UARTinterrupt.axf": Error: Q0122E: Could not open file '.\obects\UARTinterrupt.axf': No such file or directory
+Finished: 0 information, 0 warning and 1 error messages.
+".\Objects\UARTinterrupt.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling UART interrupt.c...
+linking...
+Program Size: Code=1008 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin UARTinterrupt.axf -o 1.bin
+"UARTinterrupt.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling UART interrupt.c...
+UART interrupt.c(46): error:  #268: declaration may not appear after executable statement in block
+Target not created
+Build target 'Target 1'
+compiling UART interrupt.c...
+linking...
+Program Size: Code=1068 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin UARTinterrupt.axf -o 1.bin
+"UARTinterrupt.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=1068 RO-data=32 RW-data=4 ZI-data=1260  
+FromELF: creating hex file...
+User command #1: fromelf --bin UARTinterrupt.axf -o 1.bin
+"UARTinterrupt.axf" - 0 Error(s), 0 Warning(s).
