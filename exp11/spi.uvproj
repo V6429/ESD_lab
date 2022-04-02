@@ -390,6 +390,16 @@
               <FileType>2</FileType>
               <FilePath>.\Startup.s</FilePath>
             </File>
+            <File>
+              <FileName>yespeeaii2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\yespeeaii2.c</FilePath>
+            </File>
+            <File>
+              <FileName>yespeeaii (1).c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\yespeeaii (1).c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
