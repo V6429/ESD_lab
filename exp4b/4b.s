@@ -14,11 +14,13 @@ __Vectors;label
 	ENTRY          					   ; declaring where program execution starts
 	EXPORT Reset_Handler					
 Reset_Handler ; code below this gets executed after every start/reset
-	MOV R0,#5;a
+	MOV R0,#13;a
 	MOV R1,#10;b
 	MOV r2,#300;c
+	UBFX r6,r0,#2,#2
 	MOV R5,#2; for udiv
 	CMP R0,R1
+	ADR r12,lessthan
 	BLT lessthan
 	UDIV R0,R5   ; a/2
 	MLA R5,R0,R1,R2 ; y=r0*r1+r2

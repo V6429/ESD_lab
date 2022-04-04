@@ -245,10 +245,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>60</ColumnNumber>
+      <ColumnNumber>70</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>134</TopLine>
-      <CurrentLine>140</CurrentLine>
+      <TopLine>1</TopLine>
+      <CurrentLine>6</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main_adc.c</PathWithFileName>
       <FilenameWithoutPath>main_adc.c</FilenameWithoutPath>
@@ -1626,9 +1626,9 @@
       <Documents>
         <Doc>
           <Name>.\main_adc.c</Name>
-          <ColumnNumber>60</ColumnNumber>
-          <TopLine>134</TopLine>
-          <CurrentLine>140</CurrentLine>
+          <ColumnNumber>70</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>6</CurrentLine>
         </Doc>
         <Doc>
           <Name>C:\Keil_v4\ARM\INC\Philips\lpc214x.h</Name>

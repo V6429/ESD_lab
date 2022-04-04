@@ -1,19 +1,19 @@
-*** Creating Trace Output File 'exp5.tra' Ok.
+*** Creating Trace Output File 'i2c.tra' Ok.
 ### Preparing for ADS-LD.
 ### Creating ADS-LD Command Line
 ### List of Objects: adding '"startup.o"'
 ### List of Objects: adding '"main.o"'
 ### ADS-LD Command completed:
---cpu ARM7TDMI "startup.o" "main.o" --strict --scatter "exp5.sct" 
+--cpu ARM7TDMI "startup.o" "main.o" --strict --scatter "i2c.sct" 
 --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
- --list ".\exp5.map" -o "exp5.axf"### Preparing Environment (PrepEnvAds)
-### ADS-LD Output File: 'exp5.axf'
-### ADS-LD Command File: 'exp5.lnp'
+ --list ".\i2c.map" -o "i2c.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'i2c.axf'
+### ADS-LD Command File: 'i2c.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'exp5.lnp', Handle=0x000005D0
+### Creating CmdFile 'i2c.lnp', Handle=0x00000600
 ### Writing '.lnp' file
-### ADS-LD Command file 'exp5.lnp' is ready.
+### ADS-LD Command file 'i2c.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
 ### ADS-LD: executed with 0 errors
 ### Updating obj list

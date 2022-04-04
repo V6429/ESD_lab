@@ -1,20 +1,21 @@
-*** Creating Trace Output File 'timer.tra' Ok.
+*** Creating Trace Output File 'prj.tra' Ok.
 ### Preparing for ADS-LD.
 ### Creating ADS-LD Command Line
 ### List of Objects: adding '"startup.o"'
-### List of Objects: adding '"final.o"'
+### List of Objects: adding '"ayc.o"'
 ### List of Objects: adding '"utils.o"'
+### List of Objects: adding '"uart.o"'
 ### ADS-LD Command completed:
---cpu ARM7TDMI "startup.o" "final.o" "utils.o" --strict --scatter "timer.sct" 
+--cpu ARM7TDMI "startup.o" "ayc.o" "utils.o" "uart.o" --strict --scatter "prj.sct" 
 --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
- --list ".\timer.map" -o "timer.axf"### Preparing Environment (PrepEnvAds)
-### ADS-LD Output File: 'timer.axf'
-### ADS-LD Command File: 'timer.lnp'
+ --list ".\prj.map" -o "prj.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'prj.axf'
+### ADS-LD Command File: 'prj.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'timer.lnp', Handle=0x000005A0
+### Creating CmdFile 'prj.lnp', Handle=0x0000044C
 ### Writing '.lnp' file
-### ADS-LD Command file 'timer.lnp' is ready.
+### ADS-LD Command file 'prj.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
 ### ADS-LD: executed with 0 errors
 ### Updating obj list

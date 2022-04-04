@@ -1,0 +1,250 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Victor\Desktop\MTECH\ESD\Keil\lab\prj\prj.uvproj
+Project File Date:  04/04/2022
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling ayc.c...
+ayc.c(2): error:  #5: cannot open source input file "uart.h": No such file or directory
+Target not created
+Build target 'Target 1'
+compiling ayc.c...
+includes/uart.h(18): warning:  #1295-D: Deprecated declaration readRBR - give arg types
+includes/uart.h(24): warning:  #1295-D: Deprecated declaration enableDLAB - give arg types
+includes/uart.h(26): warning:  #1295-D: Deprecated declaration disableDLAB - give arg types
+includes/uart.h(32): warning:  #1295-D: Deprecated declaration enableFIFO - give arg types
+includes/uart.h(34): warning:  #1295-D: Deprecated declaration disableFIFO - give arg types
+includes/uart.h(36): warning:  #1295-D: Deprecated declaration cleanFIFOregs - give arg types
+includes/uart.h(40): warning:  #1295-D: Deprecated declaration setLineCtrlReg - give arg types
+includes/uart.h(42): warning:  #1295-D: Deprecated declaration getlinestatus - give arg types
+includes/uart.h(44): warning:  #1295-D: Deprecated declaration enabletransmit - give arg types
+includes/uart.h(46): warning:  #1295-D: Deprecated declaration disabletransmit - give arg types
+includes/uart.h(48): warning:  #1295-D: Deprecated declaration uart0routine - give arg types
+includes/utils.h(42): warning:  #1295-D: Deprecated declaration setpll - give arg types
+includes/utils.h(43): warning:  #1-D: last line of file ends without a newline
+ayc.c(196): warning:  #68-D: integer conversion resulted in a change of sign
+ayc.c(248): warning:  #111-D: statement is unreachable
+ayc.c(102): warning:  #550-D: variable "actual_result2" was set but never used
+ayc.c(103): warning:  #177-D: variable "pwm_value" was declared but never referenced
+ayc.c(104): warning:  #177-D: variable "tempstringbffr" was declared but never referenced
+linking...
+prj.axf: Error: L6218E: Undefined symbol inituart (referred from ayc.o).
+Target not created
+Build target 'Target 1'
+compiling utils.c...
+includes\utils.h(42): warning:  #1295-D: Deprecated declaration setpll - give arg types
+includes\utils.h(43): warning:  #1-D: last line of file ends without a newline
+compiling uart.c...
+includes\uart.h(18): warning:  #1295-D: Deprecated declaration readRBR - give arg types
+includes\uart.h(24): warning:  #1295-D: Deprecated declaration enableDLAB - give arg types
+includes\uart.h(26): warning:  #1295-D: Deprecated declaration disableDLAB - give arg types
+includes\uart.h(32): warning:  #1295-D: Deprecated declaration enableFIFO - give arg types
+includes\uart.h(34): warning:  #1295-D: Deprecated declaration disableFIFO - give arg types
+includes\uart.h(36): warning:  #1295-D: Deprecated declaration cleanFIFOregs - give arg types
+includes\uart.h(40): warning:  #1295-D: Deprecated declaration setLineCtrlReg - give arg types
+includes\uart.h(42): warning:  #1295-D: Deprecated declaration getlinestatus - give arg types
+includes\uart.h(44): warning:  #1295-D: Deprecated declaration enabletransmit - give arg types
+includes\uart.h(46): warning:  #1295-D: Deprecated declaration disabletransmit - give arg types
+includes\uart.h(48): warning:  #1295-D: Deprecated declaration uart0routine - give arg types
+includes\utils.h(42): warning:  #1295-D: Deprecated declaration setpll - give arg types
+includes\utils.h(43): warning:  #1-D: last line of file ends without a newline
+linking...
+prj.axf: Error: L6200E: Symbol set_pll multiply defined (by utils.o and ayc.o).
+Target not created
+Build target 'Target 1'
+compiling ayc.c...
+includes/uart.h(18): warning:  #1295-D: Deprecated declaration readRBR - give arg types
+includes/uart.h(24): warning:  #1295-D: Deprecated declaration enableDLAB - give arg types
+includes/uart.h(26): warning:  #1295-D: Deprecated declaration disableDLAB - give arg types
+includes/uart.h(32): warning:  #1295-D: Deprecated declaration enableFIFO - give arg types
+includes/uart.h(34): warning:  #1295-D: Deprecated declaration disableFIFO - give arg types
+includes/uart.h(36): warning:  #1295-D: Deprecated declaration cleanFIFOregs - give arg types
+includes/uart.h(40): warning:  #1295-D: Deprecated declaration setLineCtrlReg - give arg types
+includes/uart.h(42): warning:  #1295-D: Deprecated declaration getlinestatus - give arg types
+includes/uart.h(44): warning:  #1295-D: Deprecated declaration enabletransmit - give arg types
+includes/uart.h(46): warning:  #1295-D: Deprecated declaration disabletransmit - give arg types
+includes/uart.h(48): warning:  #1295-D: Deprecated declaration uart0routine - give arg types
+includes/utils.h(42): warning:  #1295-D: Deprecated declaration setpll - give arg types
+includes/utils.h(43): warning:  #1-D: last line of file ends without a newline
+ayc.c(171): warning:  #223-D: function "set_pll" declared implicitly
+ayc.c(195): warning:  #68-D: integer conversion resulted in a change of sign
+ayc.c(247): warning:  #111-D: statement is unreachable
+ayc.c(101): warning:  #550-D: variable "actual_result2" was set but never used
+ayc.c(102): warning:  #177-D: variable "pwm_value" was declared but never referenced
+ayc.c(103): warning:  #177-D: variable "tempstringbffr" was declared but never referenced
+linking...
+Program Size: Code=6200 RO-data=32 RW-data=16 ZI-data=1360  
+FromELF: creating hex file...
+User command #1: fromelf --bin prj.axf -o 1prj.bin
+"prj.axf" - 0 Error(s), 19 Warning(s).
+Build target 'Target 1'
+compiling ayc.c...
+includes/uart.h(18): warning:  #1295-D: Deprecated declaration readRBR - give arg types
+includes/uart.h(24): warning:  #1295-D: Deprecated declaration enableDLAB - give arg types
+includes/uart.h(26): warning:  #1295-D: Deprecated declaration disableDLAB - give arg types
+includes/uart.h(32): warning:  #1295-D: Deprecated declaration enableFIFO - give arg types
+includes/uart.h(34): warning:  #1295-D: Deprecated declaration disableFIFO - give arg types
+includes/uart.h(36): warning:  #1295-D: Deprecated declaration cleanFIFOregs - give arg types
+includes/uart.h(40): warning:  #1295-D: Deprecated declaration setLineCtrlReg - give arg types
+includes/uart.h(42): warning:  #1295-D: Deprecated declaration getlinestatus - give arg types
+includes/uart.h(44): warning:  #1295-D: Deprecated declaration enabletransmit - give arg types
+includes/uart.h(46): warning:  #1295-D: Deprecated declaration disabletransmit - give arg types
+includes/uart.h(48): warning:  #1295-D: Deprecated declaration uart0routine - give arg types
+includes/utils.h(42): warning:  #1295-D: Deprecated declaration setpll - give arg types
+includes/utils.h(43): warning:  #1-D: last line of file ends without a newline
+ayc.c(171): warning:  #223-D: function "set_pll" declared implicitly
+ayc.c(195): warning:  #68-D: integer conversion resulted in a change of sign
+ayc.c(247): warning:  #111-D: statement is unreachable
+ayc.c(101): warning:  #550-D: variable "actual_result2" was set but never used
+ayc.c(102): warning:  #177-D: variable "pwm_value" was declared but never referenced
+ayc.c(103): warning:  #177-D: variable "tempstringbffr" was declared but never referenced
+linking...
+Program Size: Code=6200 RO-data=32 RW-data=16 ZI-data=1360  
+FromELF: creating hex file...
+User command #1: fromelf --bin prj.axf -o 1prj.bin
+"prj.axf" - 0 Error(s), 19 Warning(s).
+Build target 'Target 1'
+compiling ayc.c...
+includes/uart.h(18): warning:  #1295-D: Deprecated declaration readRBR - give arg types
+includes/uart.h(24): warning:  #1295-D: Deprecated declaration enableDLAB - give arg types
+includes/uart.h(26): warning:  #1295-D: Deprecated declaration disableDLAB - give arg types
+includes/uart.h(32): warning:  #1295-D: Deprecated declaration enableFIFO - give arg types
+includes/uart.h(34): warning:  #1295-D: Deprecated declaration disableFIFO - give arg types
+includes/uart.h(36): warning:  #1295-D: Deprecated declaration cleanFIFOregs - give arg types
+includes/uart.h(40): warning:  #1295-D: Deprecated declaration setLineCtrlReg - give arg types
+includes/uart.h(42): warning:  #1295-D: Deprecated declaration getlinestatus - give arg types
+includes/uart.h(44): warning:  #1295-D: Deprecated declaration enabletransmit - give arg types
+includes/uart.h(46): warning:  #1295-D: Deprecated declaration disabletransmit - give arg types
+includes/uart.h(48): warning:  #1295-D: Deprecated declaration uart0routine - give arg types
+includes/utils.h(42): warning:  #1295-D: Deprecated declaration setpll - give arg types
+includes/utils.h(43): warning:  #1-D: last line of file ends without a newline
+ayc.c(171): warning:  #223-D: function "set_pll" declared implicitly
+ayc.c(194): warning:  #68-D: integer conversion resulted in a change of sign
+ayc.c(250): warning:  #111-D: statement is unreachable
+ayc.c(101): warning:  #550-D: variable "actual_result2" was set but never used
+ayc.c(102): warning:  #177-D: variable "pwm_value" was declared but never referenced
+ayc.c(103): warning:  #177-D: variable "tempstringbffr" was declared but never referenced
+linking...
+Program Size: Code=6400 RO-data=32 RW-data=16 ZI-data=1360  
+FromELF: creating hex file...
+User command #1: fromelf --bin prj.axf -o 1prj.bin
+"prj.axf" - 0 Error(s), 19 Warning(s).
+Build target 'Target 1'
+compiling ayc.c...
+includes/uart.h(18): warning:  #1295-D: Deprecated declaration readRBR - give arg types
+includes/uart.h(24): warning:  #1295-D: Deprecated declaration enableDLAB - give arg types
+includes/uart.h(26): warning:  #1295-D: Deprecated declaration disableDLAB - give arg types
+includes/uart.h(32): warning:  #1295-D: Deprecated declaration enableFIFO - give arg types
+includes/uart.h(34): warning:  #1295-D: Deprecated declaration disableFIFO - give arg types
+includes/uart.h(36): warning:  #1295-D: Deprecated declaration cleanFIFOregs - give arg types
+includes/uart.h(40): warning:  #1295-D: Deprecated declaration setLineCtrlReg - give arg types
+includes/uart.h(42): warning:  #1295-D: Deprecated declaration getlinestatus - give arg types
+includes/uart.h(44): warning:  #1295-D: Deprecated declaration enabletransmit - give arg types
+includes/uart.h(46): warning:  #1295-D: Deprecated declaration disabletransmit - give arg types
+includes/uart.h(48): warning:  #1295-D: Deprecated declaration uart0routine - give arg types
+includes/utils.h(42): warning:  #1295-D: Deprecated declaration setpll - give arg types
+includes/utils.h(43): warning:  #1-D: last line of file ends without a newline
+ayc.c(171): warning:  #223-D: function "set_pll" declared implicitly
+ayc.c(194): warning:  #68-D: integer conversion resulted in a change of sign
+ayc.c(250): warning:  #111-D: statement is unreachable
+ayc.c(101): warning:  #177-D: variable "actual_result2" was declared but never referenced
+ayc.c(102): warning:  #550-D: variable "pwm_value" was set but never used
+ayc.c(103): warning:  #177-D: variable "tempstringbffr" was declared but never referenced
+linking...
+Program Size: Code=6340 RO-data=32 RW-data=16 ZI-data=1360  
+FromELF: creating hex file...
+User command #1: fromelf --bin prj.axf -o 1prj.bin
+"prj.axf" - 0 Error(s), 19 Warning(s).
+Build target 'Target 1'
+compiling ayc.c...
+includes/uart.h(18): warning:  #1295-D: Deprecated declaration readRBR - give arg types
+includes/uart.h(24): warning:  #1295-D: Deprecated declaration enableDLAB - give arg types
+includes/uart.h(26): warning:  #1295-D: Deprecated declaration disableDLAB - give arg types
+includes/uart.h(32): warning:  #1295-D: Deprecated declaration enableFIFO - give arg types
+includes/uart.h(34): warning:  #1295-D: Deprecated declaration disableFIFO - give arg types
+includes/uart.h(36): warning:  #1295-D: Deprecated declaration cleanFIFOregs - give arg types
+includes/uart.h(40): warning:  #1295-D: Deprecated declaration setLineCtrlReg - give arg types
+includes/uart.h(42): warning:  #1295-D: Deprecated declaration getlinestatus - give arg types
+includes/uart.h(44): warning:  #1295-D: Deprecated declaration enabletransmit - give arg types
+includes/uart.h(46): warning:  #1295-D: Deprecated declaration disabletransmit - give arg types
+includes/uart.h(48): warning:  #1295-D: Deprecated declaration uart0routine - give arg types
+includes/utils.h(42): warning:  #1295-D: Deprecated declaration setpll - give arg types
+includes/utils.h(43): warning:  #1-D: last line of file ends without a newline
+ayc.c(171): warning:  #223-D: function "set_pll" declared implicitly
+ayc.c(194): warning:  #68-D: integer conversion resulted in a change of sign
+ayc.c(250): warning:  #111-D: statement is unreachable
+ayc.c(101): warning:  #177-D: variable "actual_result2" was declared but never referenced
+ayc.c(102): warning:  #550-D: variable "pwm_value" was set but never used
+ayc.c(103): warning:  #177-D: variable "tempstringbffr" was declared but never referenced
+linking...
+Program Size: Code=6340 RO-data=32 RW-data=16 ZI-data=1360  
+FromELF: creating hex file...
+User command #1: fromelf --bin prj.axf -o 1prj.bin
+"prj.axf" - 0 Error(s), 19 Warning(s).
+Build target 'Target 1'
+compiling ayc.c...
+includes/uart.h(18): warning:  #1295-D: Deprecated declaration readRBR - give arg types
+includes/uart.h(24): warning:  #1295-D: Deprecated declaration enableDLAB - give arg types
+includes/uart.h(26): warning:  #1295-D: Deprecated declaration disableDLAB - give arg types
+includes/uart.h(32): warning:  #1295-D: Deprecated declaration enableFIFO - give arg types
+includes/uart.h(34): warning:  #1295-D: Deprecated declaration disableFIFO - give arg types
+includes/uart.h(36): warning:  #1295-D: Deprecated declaration cleanFIFOregs - give arg types
+includes/uart.h(40): warning:  #1295-D: Deprecated declaration setLineCtrlReg - give arg types
+includes/uart.h(42): warning:  #1295-D: Deprecated declaration getlinestatus - give arg types
+includes/uart.h(44): warning:  #1295-D: Deprecated declaration enabletransmit - give arg types
+includes/uart.h(46): warning:  #1295-D: Deprecated declaration disabletransmit - give arg types
+includes/uart.h(48): warning:  #1295-D: Deprecated declaration uart0routine - give arg types
+includes/utils.h(42): warning:  #1295-D: Deprecated declaration setpll - give arg types
+includes/utils.h(43): warning:  #1-D: last line of file ends without a newline
+ayc.c(171): warning:  #223-D: function "set_pll" declared implicitly
+ayc.c(250): warning:  #111-D: statement is unreachable
+ayc.c(101): warning:  #177-D: variable "actual_result2" was declared but never referenced
+ayc.c(102): warning:  #550-D: variable "pwm_value" was set but never used
+ayc.c(103): warning:  #177-D: variable "tempstringbffr" was declared but never referenced
+linking...
+Program Size: Code=6352 RO-data=32 RW-data=16 ZI-data=1360  
+FromELF: creating hex file...
+User command #1: fromelf --bin prj.axf -o 1prj.bin
+"prj.axf" - 0 Error(s), 18 Warning(s).
+Build target 'Target 1'
+compiling ayc.c...
+includes/uart.h(18): warning:  #1295-D: Deprecated declaration readRBR - give arg types
+includes/uart.h(24): warning:  #1295-D: Deprecated declaration enableDLAB - give arg types
+includes/uart.h(26): warning:  #1295-D: Deprecated declaration disableDLAB - give arg types
+includes/uart.h(32): warning:  #1295-D: Deprecated declaration enableFIFO - give arg types
+includes/uart.h(34): warning:  #1295-D: Deprecated declaration disableFIFO - give arg types
+includes/uart.h(36): warning:  #1295-D: Deprecated declaration cleanFIFOregs - give arg types
+includes/uart.h(40): warning:  #1295-D: Deprecated declaration setLineCtrlReg - give arg types
+includes/uart.h(42): warning:  #1295-D: Deprecated declaration getlinestatus - give arg types
+includes/uart.h(44): warning:  #1295-D: Deprecated declaration enabletransmit - give arg types
+includes/uart.h(46): warning:  #1295-D: Deprecated declaration disabletransmit - give arg types
+includes/uart.h(48): warning:  #1295-D: Deprecated declaration uart0routine - give arg types
+includes/utils.h(42): warning:  #1295-D: Deprecated declaration setpll - give arg types
+includes/utils.h(43): warning:  #1-D: last line of file ends without a newline
+ayc.c(171): warning:  #223-D: function "set_pll" declared implicitly
+ayc.c(250): warning:  #111-D: statement is unreachable
+ayc.c(101): warning:  #177-D: variable "actual_result2" was declared but never referenced
+ayc.c(102): warning:  #550-D: variable "pwm_value" was set but never used
+ayc.c(103): warning:  #177-D: variable "tempstringbffr" was declared but never referenced
+linking...
+Program Size: Code=6324 RO-data=32 RW-data=16 ZI-data=1360  
+FromELF: creating hex file...
+User command #1: fromelf --bin prj.axf -o 1prj.bin
+"prj.axf" - 0 Error(s), 18 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=6324 RO-data=32 RW-data=16 ZI-data=1360  
+FromELF: creating hex file...
+User command #1: fromelf --bin prj.axf -o 1prj.bin
+"prj.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=6324 RO-data=32 RW-data=16 ZI-data=1360  
+FromELF: creating hex file...
+User command #1: fromelf --bin prj.axf -o 1prj.bin
+"prj.axf" - 0 Error(s), 0 Warning(s).
