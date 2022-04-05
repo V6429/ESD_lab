@@ -45,7 +45,7 @@ void replaceAll(char * str, char oldChar, char newChar)
 }
 
 //  todo
-void set_pll()
+void set_pll(void)
 {
   PLL0CON=0x01;             // PPLE=1 & PPLC=0 so it will be enabled  but not connected after FEED sequence
   PLL0CFG=0x24;          // set the multipler to 5 (i.e actually 4) i.e 12x5 = 60 Mhz (M - 1 = 4), Set P=2 since we want FCCO in range So , Assign PSEL =01 in PLL0CFG as per the table.

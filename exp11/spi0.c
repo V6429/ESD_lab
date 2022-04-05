@@ -1,12 +1,14 @@
 #include <LPC214x.h>
-#include "includes/utils.h"
+#include "utils.h"
+#include "spi0.h"
+#include "uart.h"
 // refer s0spsr & its lastbit
 #define S0PINSEL0_PINS 0x0000ff00
 #define SPIFBIT 0x80
 #define MASTER_CSPIN 7 // must be on port 1 NOTE: ADJUST PINSEL TODO
 char ISMASTER;
 int __intupdate = 0,BUFFERTAIL=0,BUFFERHEAD=0;
-char RX, TX,BUFFER[100];
+char RX, TX,SPI_BUFFER[100];
 
 void spi0_masterinit()
 {
@@ -15,7 +17,7 @@ void spi0_masterinit()
     PINSEL0 |= 0x00001500;       // Master 						0.7 as gpio
     IO0DIR |= 1 << MASTER_CSPIN; // set the gpio pin to output
 
-    // SPI0 rate may be calculated as: PCLK / SPCCR0 value
+    // SPI0 rate may be calculated as: PCLK / SPCCR0 value // modes also here
     S0SPCCR = 0xA;   // Set SPI clock counter register - clock rate			         // sdo   0.6
     S0SPCR = 0X0020; // 20 for master, control register ; master/slave select;  	// sd1 	  0.5
 
@@ -64,13 +66,13 @@ void spi0_slaveinit()
     PINSEL0 |= 0x00005500;      // slave cs on 0.7
 
     // SPI0 rate may be calculated as: PCLK / SPCCR0 value
-    S0SPCCR = 0xA;   // Set SPI clock counter register - clock rate			         // sdo   0.6
+    //S0SPCCR = 0xA;   // Set SPI clock counter register - clock rate			         // sdo   0.6
     S0SPCR = 0X0000; // 0 for slave with default configs, control register ; master/slave select;  	// sd1 	  0.5
 
     VICIntSelect &= ~(1 << 10);
     VICVectCntl8 = 10 | (1 << 5);                       // set to spi0 & enable it
-    VICVectAddr8 = (unsigned long int)spi0slaveroutine; // sck	 0.4
-
+    VICVectAddr8 = (unsigned long int)spi0_slaveroutine; // sck	 0.4
+	VICIntEnable |= 1 << 10;
     S0SPCR |= 0x80; // int enable on peripheral
 }
 
@@ -85,17 +87,19 @@ char spi0_slavewrite(char data)
 
 char spi0_slaveread()
 {
-    while ((S0SPSR & SPIFBIT) == 0);
+    while ((S0SPSR & SPIFBIT) == 1);
     return S0SPDR;
 }
 
-void spi0_slaveroutine()
+__irq void spi0_slaveroutine()
 {   // wcol not considered
     __intupdate = 1;
     toggleLED(LED4);
-
+		LED3_OFF();
+		LED2_ON();
     RX = S0SPDR;
-    BUFFER[BUFFERTAIL++];
-    S0SPINT=1; // clearing the interrupt bit
+    SPI_BUFFER[BUFFERTAIL++]=RX;
+    writeTHR(RX);
+	S0SPINT=1; // clearing the interrupt bit
     VICVectAddr = 0x00;
 }

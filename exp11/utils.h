@@ -39,5 +39,5 @@
 void delay(int seconds);  // to stall main thread if required
 void toggleLED(int led);  // toggles led on port1 
 void replaceAll(char * str, char oldChar, char newChar);
-void setpll();
+void set_pll(void);
 #endif

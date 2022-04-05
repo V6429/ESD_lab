@@ -24,8 +24,10 @@
 // 6. Go to step 2 if more data is required to transmit
 
 
-extern int __intupdate=1;
+extern int __intupdate;
 extern char RX,TX;
+extern char SPI_BUFFER[100];
+
 void spi0_masterinit();
 void spi0_slavecntrl(char enable);
 char spi0_masterwrite(char data);
@@ -35,6 +37,6 @@ void spi0_slaveinit();
 char spi0_slavewrite(char data);
 char spi0_slaveread();
 
-void spi0_slaveroutine();
+__irq void spi0_slaveroutine();
 
 #endif
