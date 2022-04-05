@@ -137,8 +137,8 @@ void inituart(int baudrate)
     // configure vic
 
     VICIntSelect &= ~(1 << 6); // irq
-    VICVectAddr5 = (unsigned long int)uart0routine;
-    VICVectCntl5 = 0x06 | 1 << 5; // setting int number and enabling it
+    VICVectAddr12 = (unsigned long int)uart0routine;
+    VICVectCntl12 = 0x06 | 1 << 5; // setting int number and enabling it
     VICIntEnable |= 1 << 6;
     // setFIFOtriggerLevel(0x0);
 

@@ -7,8 +7,8 @@
 #define SPIFBIT 0x80
 #define MASTER_CSPIN 7 // must be on port 1 NOTE: ADJUST PINSEL TODO
 char ISMASTER;
-int __intupdate = 0,BUFFERTAIL=0,BUFFERHEAD=0;
-char RX, TX,SPI_BUFFER[100];
+int __intupdate = 0, BUFFERTAIL = 0, BUFFERHEAD = 0;
+char RX, TX, SPI_BUFFER[100];
 
 void spi0_masterinit()
 {
@@ -51,7 +51,7 @@ char spi0_masterwrite(char data)
 char spi0_masterread()
 {                       // exclusive read function
     spi0_slavecntrl(1); // pull cs low
-    S0SPDR = 0xAB;      // flushing something out
+    S0SPDR = 0x42;      // flushing something out
     while ((S0SPSR & SPIFBIT) == 0)
         ;               // waitng for data transfer complete
     spi0_slavecntrl(0); // pull cs high
@@ -66,40 +66,48 @@ void spi0_slaveinit()
     PINSEL0 |= 0x00005500;      // slave cs on 0.7
 
     // SPI0 rate may be calculated as: PCLK / SPCCR0 value
-    //S0SPCCR = 0xA;   // Set SPI clock counter register - clock rate			         // sdo   0.6
+    // S0SPCCR = 0xA;   // Set SPI clock counter register - clock rate			         // sdo   0.6
     S0SPCR = 0X0000; // 0 for slave with default configs, control register ; master/slave select;  	// sd1 	  0.5
 
     VICIntSelect &= ~(1 << 10);
-    VICVectCntl8 = 10 | (1 << 5);                       // set to spi0 & enable it
+    VICVectCntl8 = 10 | (1 << 5);                        // set to spi0 & enable it
     VICVectAddr8 = (unsigned long int)spi0_slaveroutine; // sck	 0.4
-	VICIntEnable |= 1 << 10;
+    VICIntEnable |= 1 << 10;
     S0SPCR |= 0x80; // int enable on peripheral
 }
 
 char spi0_slavewrite(char data)
-{
-
+{ char flush;
+    // while ((S0SPSR & SPIFBIT) == 0); //poll here till last transact completes
     S0SPDR = data;
-    while ((S0SPSR & SPIFBIT) == 0);               // waitng for data transfer complete
-    spi0_slavecntrl(0); // pull cs high
-    return S0SPDR;      // use the data if required
+    while ((S0SPSR & SPIFBIT) == 0)
+        ;    
+                   // waitng for data transfer complete
+    flush = S0SPDR;
+    return flush;      // use the data if required
 }
 
 char spi0_slaveread()
 {
-    while ((S0SPSR & SPIFBIT) == 1);
+    while ((S0SPSR & SPIFBIT) == 1)
+        ;
     return S0SPDR;
 }
 
 __irq void spi0_slaveroutine()
-{   // wcol not considered
+{ // wcol not considered
     __intupdate = 1;
-    toggleLED(LED4);
-		LED3_OFF();
-		LED2_ON();
+    LED3_OFF();
+    LED2_ON();
+	RX=S0SPSR;
     RX = S0SPDR;
-    SPI_BUFFER[BUFFERTAIL++]=RX;
-    writeTHR(RX);
-	S0SPINT=1; // clearing the interrupt bit
+    // SPI_BUFFER[BUFFERTAIL++] = RX;
+    // if (BUFFERTAIL == 100)
+    //     BUFFERTAIL = 0;
+    // uartSendString("\nlast received val=");
+    // writeTHR(RX);writeTHR('\n');
+    // delay(10);
+
+    S0SPINT = 1; // clearing the interrupt bit
     VICVectAddr = 0x00;
 }

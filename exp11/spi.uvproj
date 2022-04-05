@@ -391,24 +391,24 @@
               <FilePath>.\Startup.s</FilePath>
             </File>
             <File>
-              <FileName>master_main.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\master_main.c</FilePath>
-            </File>
-            <File>
               <FileName>spi0.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\spi0.c</FilePath>
             </File>
             <File>
-              <FileName>utils.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\includes\utils.c</FilePath>
-            </File>
-            <File>
               <FileName>uart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\includes\uart.c</FilePath>
+              <FilePath>.\uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>utils.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\utils.c</FilePath>
+            </File>
+            <File>
+              <FileName>slave_main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\slave_main.c</FilePath>
             </File>
           </Files>
         </Group>

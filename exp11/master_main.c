@@ -16,10 +16,33 @@ int main()
     {
     
         flush = spi0_masterwrite('G');
-        delay(15);
-        uartSendString("\nflush=");
+        uartSendString("\nG transmitted flush=");
         writeTHR(flush);
+        delay(200);
+        flush = spi0_masterwrite('A');
+        uartSendString("\nA transmitted flush=");
+        writeTHR(flush);
+        delay(200);
+
+        flush = spi0_masterwrite('M');
+        uartSendString("\nM transmitted flush=");
+        writeTHR(flush);
+        delay(200);
+
+        flush = spi0_masterwrite('E');
+        uartSendString("\nE transmitted flush=");
+        writeTHR(flush);
+        delay(200);
+
+        flush = spi0_masterwrite('D');
+        uartSendString("\nD command flush=");
+        writeTHR(flush);
+        delay(200);
+
+        uartSendString("\nread=");
+        writeTHR(spi0_masterread());
         LED4_ON();
+        delay(200);
         /* code */
     }
 

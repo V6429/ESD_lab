@@ -5,16 +5,16 @@
 ### List of Objects: adding '"spi0.o"'
 ### List of Objects: adding '"uart.o"'
 ### List of Objects: adding '"utils.o"'
-### List of Objects: adding '"master_main.o"'
+### List of Objects: adding '"slave_main.o"'
 ### ADS-LD Command completed:
---cpu ARM7TDMI "startup.o" "spi0.o" "uart.o" "utils.o" "master_main.o" --strict --scatter "spi.sct" 
+--cpu ARM7TDMI "startup.o" "spi0.o" "uart.o" "utils.o" "slave_main.o" --strict --scatter "spi.sct" 
 --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
  --list ".\spi.map" -o "spi.axf"### Preparing Environment (PrepEnvAds)
 ### ADS-LD Output File: 'spi.axf'
 ### ADS-LD Command File: 'spi.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'spi.lnp', Handle=0x000008C0
+### Creating CmdFile 'spi.lnp', Handle=0x00000804
 ### Writing '.lnp' file
 ### ADS-LD Command file 'spi.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

@@ -11,15 +11,22 @@ int main()
     spi0_slaveinit();
     while (1)
     {
-        SPI_BUFFER[100] = '\0';
-        
-        delay(5);
-        uartSendString("\nbuffer=");
-		uartSendString(SPI_BUFFER);
-		 //writeTHR(RX);
-        //spi0_slavewrite('b');
-	//	writeTHR(spi0_slaveread());
+
+        if (__intupdate)
+        {
+            __intupdate = 0;
+            writeTHR(RX);
+            uartSendString("\n");
+            SPI_BUFFER[100] = '\0';
+
+            if (RX == 'D')
+            {   spi0_slavewrite('F');
+                uartSendString("command D received: sending 'F' back\n");
+            }
+        }
+
         LED3_ON();
+        LED2_OFF();
         /* code */
     }
 

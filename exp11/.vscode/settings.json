@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "lpc214x.h": "c",
-        "utils.h": "c"
+        "utils.h": "c",
+        "uart.h": "c"
     }
 }
